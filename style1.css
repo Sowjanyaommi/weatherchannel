@@ -8,8 +8,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("skycloud.jpeg");
-    background-size: cover;
 }
 
 .weather-card {
@@ -20,8 +18,7 @@ body {
     text-align: left;
     width: 50%;
     max-width: 400px;
-    height: 70%;
-    background-color: rgb(55, 125, 196);
+    height: 60%;
 }
 
 h2 {
@@ -44,7 +41,6 @@ h2 {
 
 .weather-details {
     margin-top: 15px;
-    font-size: larger;
 }
 
 .weather-details p {
