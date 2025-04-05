@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Today</title>
     <link rel="stylesheet" href="style.css">
-    <script src="" defer></script>
+    <!-- <script src="" defer></script> -->
 </head>
 <body>
     <div class="weather-card">
-        <h2>Weather Today in <span id="location">Rajpath Area, Delhi</span></h2>
+        <input type="text" id="location" placeholder="search location"><button id="btn">search</button>
+        <h2>Weather Today in <span id="location1"></span></h2>
         <div class="temperature">
-            <p>Feels Like <span id="feels-like">31</span>°</p>
+            <p><span id="feels-like"></span></p>
             <div class="sun-info">
                 <img class="img" src="sunrise.png" alt="Sunrise">
-                <span id="sunrise">06:16</span>
+                <span id="sunrise"></span>
                 <img class="img" src="sunset-.png" alt="Sunset">
-                <span id="sunset">18:36</span>
+                <span id="sunset"></span>
             </div>
         </div>
 
         <div class="weather-details">
-            <p><img class="img1" src="exclamation-mark_7500091.png" alt="Temp"> High/Low: <span id="high-low">38°/20°</span></p>
-            <p><img class="img1" src="wind.png" alt="Wind"> Wind: <span id="wind">13 km/h</span></p>
-            <p><img class="img1" src="humidity.png" alt="Humidity"> Humidity: <span id="humidity">26%</span></p>
-            <p><img class="img1" src="dew-point.png" alt="Dew Point"> Dew Point: <span id="dew-point">9°</span></p>
-            <p><img class="img1" src="resilience.png" alt="Pressure"> Pressure: <span id="pressure">1007.8 mb</span></p>
-            <p><img class="img1" src="ultraviolet.png" alt="UV"> UV Index: <span id="uv-index">6 of 11</span></p>
-            <p><img class="img1" src="visibility.png" alt="Visibility"> Visibility: <span id="visibility">4.02 km</span></p>
-            <p><img class="img1" src="moon-phase-circular-weather-symbol.png" alt="Moon Phase"> Moon Phase: <span id="moon">Waning Crescent</span></p>
+            <p><img class="img1" src="exclamation-mark_7500091.png" alt="Temp"> High/Low: <span id="high-low"></span></p>
+            <p><img class="img1" src="wind.png" alt="Wind"> Wind: <span id="wind"></span></p>
+            <p><img class="img1" src="humidity.png" alt="Humidity"> Humidity: <span id="humidity"></span></p>
+            <p><img class="img1" src="dew-point.png" alt="Dew Point"> Dew Point: <span id="dew-point"></span></p>
+            <p><img class="img1" src="resilience.png" alt="Pressure"> Pressure: <span id="pressure"></span></p>
+            <p><img class="img1" src="ultraviolet.png" alt="UV"> UV Index: <span id="uv-index"></span></p>
+            <p><img class="img1" src="visibility.png" alt="Visibility"> Visibility: <span id="visibility"></span></p>
+            <p><img class="img1" src="moon-phase-circular-weather-symbol.png" alt="Moon Phase"> Moon Phase: <span id="moon"></span></p>
         </div>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
